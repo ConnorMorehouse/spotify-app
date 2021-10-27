@@ -1,0 +1,36 @@
+to do: 
+- import data playlist X
+- sortable follower count list X
+  - make list X
+  - make sortable (asc/dec) X
+  - select genere X
+  - results per page X
+  - follower count range X
+  - make follower range logarithmic ---------
+- look at info for specific artist X
+  - ui 
+    - text box for look up 
+    - follower count 
+    - origin (?)
+    - graphs (?)
+      - radial of audio info (mihgt still need percentiles if diffs small, look at dist overlay for artists)
+        - function to build df with median vals for each char for each artist
+        - function to make chart of all char dist
+          - maybe overlays?
+      - cordinate relative to collection (?)
+        - probably closer to radial overlay of genre average 
+- distribution of follower counts 
+  - could do geom 
+  - could do hist with custom bins 
+- some custome metrics 
+  - % of artists with more than 3 songs lol
+  - % of artists with more than 50% of catalog 
+  - % percent of total under some follower count 
+- misc 
+  - dist diff of music i have verse artist avg
+  - give list of playlists to choose from data to load 
+    - get playlists 
+    - convert name to id 
+    - call load data function
+  - something with related artists or recommendations (?)
+  
