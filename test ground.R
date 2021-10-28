@@ -246,7 +246,7 @@ followers_table_test <- function(genre = '', results = 50, follower_range = c(0,
 #####
 
 Sys.setenv(SPOTIFY_CLIENT_ID = '141b22fb1aa8490a91bf0b65087f5f67')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '564d90b2fce64763aa06730ea408763e')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = )
 access_token <- get_spotify_access_token()
 data <- '0480aOWQNkfLEIJjffyXDr'
 
