@@ -345,7 +345,7 @@ make_radar <- function(name, char = artist_char) {
 # load in data 
 #####
 
-set_up('141b22fb1aa8490a91bf0b65087f5f67','564d90b2fce64763aa06730ea408763e', 'data', 'corndoggen')
+set_up()
 
 tracks <- build_tracks('corndoggen', 'data')
 
